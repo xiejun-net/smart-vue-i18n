@@ -1,8 +1,8 @@
 {
-  "name": "smart-i18n-vue",
-  "version": "1.0.1",
+  "name": "smart-vue-i18n",
+  "version": "1.0.3",
   "description": "",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
@@ -13,5 +13,8 @@
   "devDependencies": {
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "smart-i18n-vue": "^1.0.1"
   }
 }
